@@ -1,6 +1,6 @@
 if (typeof PhoneGap !== "undefined") {
 
-     var TestPlugin = function() {};
+    var TestPlugin = function() {};
 
     TestPlugin.prototype.test = function(successCallback, failureCallback) 
     {
@@ -12,8 +12,9 @@ if (typeof PhoneGap !== "undefined") {
         if(!window.plugins)
         {
             window.plugins = {};
+            
         }
-        window.plugins.testPlugin = new TestPlugin();
+        window.plugins.testPlugin = new TestPlugin();        
     });
 
 }
