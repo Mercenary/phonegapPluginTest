@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'pluginTest2' target in the 'pluginTest2' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
